@@ -1,7 +1,6 @@
 import styled from 'styled-components'
 
 export const CityStyled = styled.div`
-  width: 250px;
   height: 136px;
   margin-bottom: 67px;
   margin-left:  41px;

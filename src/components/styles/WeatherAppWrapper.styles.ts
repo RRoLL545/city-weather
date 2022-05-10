@@ -6,6 +6,10 @@ export const WeatherAppWrapper = styled.div`
   border-radius: 10px;
   margin: 0 auto;
   overflow: hidden;
+
+  @media (max-width: 800px) {
+    width: 784px;
+  }
 `
 export const StyledHeader = styled.header`
   height: 404px;

@@ -1,5 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import { Provider } from 'react-redux';
+import { setupStore } from './stateManagement';
 import WeatherApp from './WeatherApp';
 
 const root = ReactDOM.createRoot(
@@ -7,6 +9,8 @@ const root = ReactDOM.createRoot(
 );
 root.render(
   <React.StrictMode>
-    <WeatherApp />
+    <Provider store={setupStore()}>
+      <WeatherApp />
+    </Provider>
   </React.StrictMode>
 );
