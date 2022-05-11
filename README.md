@@ -15,5 +15,4 @@
 
 
 ### Deployment
-Приложение развёрнуто по на GitHub по [ссылке](https://rroll545/city-weather-forecast) .
-
+Приложение развёрнуто по на GitHub по [ссылке](https://rroll545.github.io/city-weather-forecast/).
