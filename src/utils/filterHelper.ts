@@ -16,7 +16,7 @@ export const capitalizeFirstLetter = (string: string): string => {
  * @returns отформатированная строка с температурой
  */
 export const getTemperatureString = (temperature: number): string => {
-  return temperature > 0 ? `+${temperature}` : `${temperature}`;
+  return temperature > 0 ? `+${temperature}`.replace(/\./, ',') : `${temperature}`.replace(/\./, ',');
 }
 
 /**
@@ -44,7 +44,7 @@ export const getWindSpeedString = (wind_kph: number): string => {
  * @returns отформатированная строку с url
  */
 export const getUrlString = (url:string): string => {
-  return `/assets/img/weather-icons${url.split('64x64')[1]}`;
+  return `./assets/img/weather-icons${url.split('64x64')[1]}`;
 }
 
 

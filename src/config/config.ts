@@ -17,4 +17,4 @@ export const LANGUAGE_LOCALE: string = 'ru-RU';
 /**
  * Базовая адресная строка запроса прогноза погоды
  */
-export const WEATHER_FORECAST_BASIC_API_URL: string = `http://api.weatherapi.com/v1/forecast.json?key=${WEATHER_API_KEY}&days=${FORECAST_DAYS_COUNT}&lang=${LANGUAGE}&q=`
+export const WEATHER_FORECAST_BASIC_API_URL: string = `https://api.weatherapi.com/v1/forecast.json?key=${WEATHER_API_KEY}&days=${FORECAST_DAYS_COUNT}&lang=${LANGUAGE}&q=`
