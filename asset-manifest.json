@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/city-weather-forecast/static/js/main.6c7fd87d.js",
+    "main.js": "/city-weather-forecast/static/js/main.dcbc15cf.js",
     "index.html": "/city-weather-forecast/index.html",
-    "main.6c7fd87d.js.map": "/city-weather-forecast/static/js/main.6c7fd87d.js.map"
+    "main.dcbc15cf.js.map": "/city-weather-forecast/static/js/main.dcbc15cf.js.map"
   },
   "entrypoints": [
-    "static/js/main.6c7fd87d.js"
+    "static/js/main.dcbc15cf.js"
   ]
 }
