@@ -1,0 +1,10 @@
+{
+  "files": {
+    "main.js": "/city-weather-forecast/static/js/main.933ea0fe.js",
+    "index.html": "/city-weather-forecast/index.html",
+    "main.933ea0fe.js.map": "/city-weather-forecast/static/js/main.933ea0fe.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.933ea0fe.js"
+  ]
+}
